@@ -1,0 +1,23 @@
+{
+  "name": "songs-test",
+  "version": "0.0.0",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "vendor/bower_components"
+  ],
+  "homepage": "",
+  "authors": [
+    "Zavra <ultra.u@gmail.com>"
+  ],
+  "directory": "vendor",
+  "dependencies": {
+    "bootstrap": "bootstrap#v4.0.0-alpha.6"
+  },
+  "description": "",
+  "main": ""
+}
