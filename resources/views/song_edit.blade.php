@@ -1,7 +1,11 @@
 @extends('layout')
 @section('content')
 
-    <h2>Add song</h2>
+    @if($song->id)
+        <h2>Edit song</h2>
+    @else
+        <h2>Add song</h2>
+    @endif
 
     @if ($errors->any())
         <div class="alert alert-danger">
@@ -22,7 +26,9 @@
             <label>Song Artist</label>
             <input type="text" name="artist" value="{{ $song->artist }}" class="form-control"  placeholder="Song Artist">
         </div>
-        <button type="submit" class="btn btn-success">Add song</button>
+        <button type="submit" class="btn btn-success">
+            @if($song->id) Edit song @else Add song @endif
+        </button>
     </form>
 
 @endsection

@@ -1,27 +1,31 @@
-# Laravel PHP Framework
+# General
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+I have used Laravel Framework 5.2 to create this project.
+I am sorry for not using the libraries you've suggested, but there is no sense to use them when using Laravel.
+As Laravel has all this by default.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
+I use Eloquent ORM kindly included into Laravel for working with DB.
 
-Laravel is accessible, yet powerful, providing tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+#Project description
 
-## Official Documentation
+#Home page
+[a link](http://songs.zavr.com.ua/)
 
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
+Here is a list of all available collections. Once click on green "View" button you will see songs in this particular collection.
 
-## Contributing
+#Collection page
+[a link](http://songs.zavr.com.ua/songs/classic_songs)
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
+This this a page with a list of songs for a particular collection. From here you can edit/delete existing songs or add new song if click on blue button on top right
 
-## Security Vulnerabilities
+#Edit song
+[a link](http://songs.zavr.com.ua/songs/classic_songs/song/edit/1)
+Page for editing existing song
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
+#Add song
+[a link](http://songs.zavr.com.ua/songs/classic_songs/song/create)
 
-## License
+Add song to particular collection.
+Song name is required.
 
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+
